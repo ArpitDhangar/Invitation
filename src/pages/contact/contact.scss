@@ -1,0 +1,117 @@
+
+.contact {
+    display: flex;
+    flex-direction: row; /* Arrange items in a row */
+    justify-content: space-around; /* Space out items evenly */
+    align-items: center; /* Align items vertically */
+    // padding: 20px;
+    background-color: #e5d0ab; /* Background color */
+    color: #333; /* Text color */
+    
+    /* Style for the text container */
+    .text {
+      flex: 1; /* Takes up one part of the available space */
+      text-align: left; /* Align text to the left */
+      font-size: 17px;
+      font-family: Meddon;
+      font-weight: 600;
+      padding-left: 20px  ;
+    }
+    
+    /* Style for the logo image container */
+    .logoimg {
+      flex: 1; 
+      text-align: center;
+      // margin-left: 600px;
+      padding: 0;
+      height: 200px;
+      
+      img {
+        width: 100%;
+        height: 200px;
+      }
+    }
+    
+    /* Style for the info container */
+    .info {
+      flex: 1; /* Takes up one part of the available space */
+      display: flex;
+      flex-direction: column; /* Stack links and name vertically */
+      justify-content: center; /* Center the content vertically */
+      align-items: center; /* Center content horizontally */
+      
+      /* Style for the links container */
+      .links {
+        display: flex;
+        gap: 15px; /* Space between icons */
+        margin-bottom: 10px; /* Add margin below links */
+        
+        a {
+          color: black; /* Set icon color to black */
+          font-size: 24px; /* Adjust icon size */
+        }
+      }
+      
+      /* Style for the name */
+      .name {
+        margin-top: 5px; /* Space between links and name */
+        margin-bottom: 5px;
+      }
+      
+      /* Style for the number */
+      .number {
+        display: flex;
+        align-items: center; /* Align icon and number vertically */
+        gap: 5px; /* Space between icon and number */
+        
+        /* Style for the call icon */
+        svg {
+          font-size: 20px; /* Adjust the size */
+        }
+      }
+    }
+  
+    /* Footer text styling */
+    span {
+      width: 100%; /* Full width of the container */
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    
+    /* Responsive styling */
+    @media (max-width: 768px) {
+      flex-direction: column; /* Switch to column layout */
+      justify-content: center; /* Center items */
+  
+      .text{
+        font-size: 14px;
+        padding-top: 10px;
+        text-align: center;
+        padding-left: 2px;
+      }
+      
+      /* Adjustments for the logo image container */
+      .logoimg {
+        margin-bottom: 20px;
+        width: 200px;
+        img{
+         height: 100px;
+  
+        }
+      }
+      
+      /* Adjustments for the info container */
+      .info {
+        align-items: center; 
+      }
+      
+      /* Adjustments for footer text */
+      .number {
+        // margin: 10px 0;
+        padding-bottom: 20px;
+      }
+    }
+  }
+  
