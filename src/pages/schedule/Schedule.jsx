@@ -39,7 +39,7 @@ const Schedule = () => {
             </div>
             <div className="line"></div>
             <div className="date">
-              <h3 className="date"> 12:00 PM Thursday July 4, 2024</h3>
+              <h3 className="date"> 11:30 PM Thursday July 4, 2024</h3>
             </div>
             <div className="img">
               <a href="https://maps.app.goo.gl/URec5yXMXKEFDcV58">
