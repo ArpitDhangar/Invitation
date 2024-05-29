@@ -6,12 +6,10 @@
 
 .schedule {
   background-image: url("../../images/wedding-bg.jpg");
-  background-size: cover; /* Ensures the background image covers the entire section */
+  background-size: cover; 
   background-position: center;
-  height: 100vh;
 
   @media (max-width: 480px) {
-    
   }
 
   @media (max-width: 768px) {
@@ -25,8 +23,13 @@
     font-family: Meddon;
     font-weight: 400;
     line-height: 1.25;
-    h1, h2, h3, h4, h5, h6 { 
-      font-weight: 200; 
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: 200;
     }
 
     @media (max-width: 480px) {
@@ -34,9 +37,7 @@
     }
 
     @media (max-width: 768px) {
-      
     }
-
   }
 
   .cards {
@@ -59,8 +60,9 @@
       flex-direction: column;
     }
 
-    .engagement, .wedding {
-        background: rgba(239, 233, 222, 0.9);
+    .engagement,
+    .wedding {
+      background: rgba(239, 233, 222, 0.9);
       padding: 20px;
       border: 1px solid hsl(0, 0%, 80%);
       border-radius: 40px;
